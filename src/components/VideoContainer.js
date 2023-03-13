@@ -18,9 +18,6 @@ export default function VideoContainer({flex}) {
           uri: currentChannelVideoStream?.detail?.playUrl,
           type: 'm3u8',
         }}
-        // onLoad={() => setIsLoading(false)}
-        // onLoadStart={() => setIsLoading(true)}
-        // style={{flex: 1}}
       />
     </View>
   );
